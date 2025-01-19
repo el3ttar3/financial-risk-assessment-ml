@@ -5,6 +5,16 @@ This project implements a machine learning solution for financial risk assessmen
 1. Phase 1: Initial model development and evaluation
 2. Phase 2: Advanced model implementation with feature engineering
 
+## Data
+The project uses two main datasets:
+- `Loan.csv`: Contains loan application data with features like credit score, income, etc.
+- `Regression_test_file.csv`: Test dataset for model evaluation
+
+To get started with this project:
+1. Create a `data/` directory in the project root
+2. Download the required datasets from [This Drive](https://drive.google.com/drive/folders/1_UcPiHOdTqc3QjCf7ccm5PSghmUUy8_5?usp=share_link)
+3. Place the CSV files in the `data/` directory
+
 ## Project Structure
 ```
 ├── data/
@@ -72,8 +82,8 @@ pip install -r requirements.txt
 
 2. Model Training:
    - Execute notebooks in sequence:
-     1. `phase1_initial_models.ipynb`
-     2. `phase2_advanced_models.ipynb`
+     1. `financial_risk_assessment_ml_project.py`
+     2. `financial_risk_assessment(2)_ml_project.py`
 
 3. Model Evaluation:
    - Review model performance metrics
